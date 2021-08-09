@@ -3,6 +3,8 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import * as dat from 'dat.gui'
 
+
+
 /**
  * Base
  */
@@ -39,6 +41,7 @@ const floor = new THREE.Mesh(
 floor.rotation.x = - Math.PI * 0.5
 floor.position.y = 0
 scene.add(floor)
+
 
 /**
  * Lights
